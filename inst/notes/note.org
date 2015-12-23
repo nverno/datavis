@@ -1,0 +1,30 @@
+* Datasets
+  - abba15ex are just a few extension growths collected this year.
+  - birchmas* are destructive files
+  - elevmas12
+    Just has elevations - already have all this info, but maybe double-check
+  - demomas11 is just demo plot stuff (probably ignore this)
+  - firmasv* destructive for fir
+  - hhcht15mas (ignore)
+  - hhtr15ht -> tallest ~5 trees in each plot
+  - prism data: 3 samples for each segment (different for different years),
+    weird stuff in 1988
+  - seesapmas11: complex sampling all from segments
+    - TAG is identifier
+    - SUB columns for substrate
+  - soilmas11: soil probe data for HH transects and segments (no permanent plots)
+  - trseedmas11: high high for seedlings
+  - trspcovmas11: percent cover (2 kinds-donut, 1x1) by species/year for HH only
+    
+* Substrate
+  - Three datasets: permanent, segments, high high
+  - permanent/segments give low/med info
+
+** datasets
+  - ppsubmas10c -> substrate data for permanent plots (1x1)
+  - trsubmas11c -> same for transects
+  - seesapmas11 has substrate for segments
+  
+* Missing
+  - herb/shrub percent cover files (below HH, ie. permanent plots and segments)
+    

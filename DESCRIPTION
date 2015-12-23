@@ -1,0 +1,25 @@
+Package: datavis
+Title: Simple visualization/navigation for master datasets
+Version: 0.0.0.9000
+Authors@R: person("Noah", "Peart", email = "noah.v.peart@gmail.com", role = c("aut", "cre"))
+Author: Noah Peart
+Maintainer: Noah Peart <noah.v.peart@gmail.com>
+Description: Stuff to help figure out what is going on in the master files.
+Depends:
+    R (>= 3.2.2),
+    sync.afs,
+    dirs
+License: GPL-2
+LazyData: true
+RoxygenNote: 5.0.1
+Imports:
+    devtools,
+    data.table,
+    DT,
+    shiny
+Suggests:
+    testthat
+Collate:
+    'utils.R'
+    'vis.R'
+    'zzz.R'
