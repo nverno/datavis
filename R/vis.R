@@ -7,7 +7,7 @@ NULL
 ##' @param update Check for updates to master files (default FALSE).
 ##' @import data.table
 ##' @import shiny
-##' @importFrom DT renderDataTable dataTableOutput
+## ##' @importFrom DT renderDataTable dataTableOutput
 ##' @importFrom sync.afs get_data update_key get_afs
 ##' @export
 idata <- function(update=FALSE) {
