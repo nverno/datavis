@@ -20,6 +20,5 @@ Imports:
 Suggests:
     testthat
 Collate:
-    'utils.R'
     'vis.R'
-    'zzz.R'
+
