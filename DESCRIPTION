@@ -13,12 +13,11 @@ License: GPL-2
 LazyData: true
 RoxygenNote: 5.0.1
 Imports:
-    devtools,
-    data.table,
-    DT,
+    data.table (>= 1.9.6),
     shiny
 Suggests:
     testthat
 Collate:
     'vis.R'
+    'datavis.R'
 

@@ -33,10 +33,10 @@ idata <- function(update=FALSE) {
     server <- shinyServer(function(input, output, session) {
         vals <- reactiveValues(dat=data.frame())
         
-        output$tbl <- DT::renderDataTable({
-            vals$dat)
-            filter='top', rownames=FALSE,
-            selection=list(target='column'),
+        output$tbl <- DT::renderDataTable(
+            vals$dat,
+            filter='top',
+            selection=list(mode='single', target='column'),
             options=list(pageLength=20)
         )
 
@@ -71,3 +71,4 @@ idata <- function(update=FALSE) {
 
     runApp(list(ui=ui, server=server))
 }
+
